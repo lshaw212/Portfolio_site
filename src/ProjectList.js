@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Project from './Project';
+import Fade from 'react-reveal/Fade';
 
 class ProjectList extends Component {
   constructor(props){
@@ -11,6 +12,13 @@ class ProjectList extends Component {
         <Project name="Project 1"/>
         <Project name="Project 2"/>
         <Project name="Project 3"/>
+        <Project name="Project 4"/>
+        <Fade left>
+          <Project name="Project 5"/>
+        </Fade>
+        <Fade right>
+          <Project name="Project 6"/>
+        </Fade>
       </div>
     );
   }
