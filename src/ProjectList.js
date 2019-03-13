@@ -9,10 +9,19 @@ class ProjectList extends Component {
   render(){
     return(
       <div id="project-list-container">
-        <Project name="Project 1"/>
-        <Project name="Project 2"/>
-        <Project name="Project 3"/>
-        <Project name="Project 4"/>
+        <div>Projects...</div>
+        <Fade left>
+          <Project name="Project 1"/>
+        </Fade>
+        <Fade right>
+          <Project name="Project 2"/>
+        </Fade>
+        <Fade left>
+          <Project name="Project 3"/>
+        </Fade>
+        <Fade right>
+          <Project name="Project 4"/>
+        </Fade>
         <Fade left>
           <Project name="Project 5"/>
         </Fade>
