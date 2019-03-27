@@ -5,8 +5,30 @@
   align-items: center;
 }
 .project-container{
-  background-color: aqua;
-  border: 1px solid black;
+  display:flex;
+  /* background-color: aqua; */
+  /* border: 1px solid black; */
   height: 250px;
   width: 900px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 35px rgba(50,50,93,.1),0 2px 15px rgba(0,0,0,.07);
+}
+.project-image{
+  background-image: url(https://i.imgur.com/4Jm5K2s.jpg);
+  height: 100%;
+  width: 30%;
+  position: relative;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center; 
+}
+.project-content{
+  width: 70%;
+}
+.project-name{
+  font-size: 2em;
+  margin: 5px 0 5px 5px;
+}
+.project-desc{
+  margin: 5px 5px 5px 5px;
 }

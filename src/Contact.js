@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contact = () => (
-  <div>
+  <div id="contact-container">
     Contact meee!!!
   </div>
 )

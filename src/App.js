@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ProjectList from './ProjectList';
 import SkillList from './SkillList';
+import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Homepage from './Homepage';
 
@@ -11,7 +12,7 @@ class App extends Component {
         <Homepage/>
         <ProjectList/>
         <SkillList/>
-        
+        <AboutMe/>
         <Contact/>
       </div>
     );

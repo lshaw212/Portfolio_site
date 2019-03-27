@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Project = ({name}) => (
+const Project = ({name, desc}) => (
   <div className="project-container">
-    <div>
-      {name}
+    <div className="project-image"></div>
+    <div className="project-content">
+      <div className="project-name">{name}</div>
+      <div className="project-desc">{desc}</div>
     </div>
   </div>
 )
