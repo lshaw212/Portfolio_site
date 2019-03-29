@@ -2,6 +2,7 @@
 @import "./css/Project.css";
 @import "./css/Homepage.css";
 @import "./css/Heading.css";
+@import "./css/Navbar.css";
 
 body {
   margin: 0;
@@ -34,4 +35,36 @@ body {
   background-color: grey;
   width: 100%;
   height: 150px;
+}
+
+#about-container{
+  /* background-color: rosybrown; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+#about-header{
+  font-size: 2em;
+}
+#about-content{
+  font-size: 1.5em;
+  display: flex;
+}
+#about-picture{
+  background-image: url(https://i.imgur.com/VLNrCvG.jpg);
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  /* box-shadow: inset 0 0 2px #000000; */
+  box-shadow: 0 10px 35px rgba(50,50,93,.1),0 2px 15px rgba(0,0,0,.07);
+  /* top: -50px; */
+  /* left: 10px; */
+  /* position: relative; */
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  /* transition: all 300ms ease; */
+  /* cursor: pointer; */
 }
