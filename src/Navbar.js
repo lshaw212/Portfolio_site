@@ -1,13 +1,18 @@
 import React from 'react';
 
-const Navbar = () => (
+const Navbar = ({scroll,drawerToggleClickHandler}) => (
   <div id="navbar">
-    <a href="#default" id="logo">CompanyLogo</a>
+    <a href="#default" id="logo">
+      LEWIS <strong id="navbar-dot">·</strong> SHAW
+    </a>
     <div id="navbar-right">
-      <a href="#home">Projects</a>
-      <a href="#contact">Skills</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a onClick={() => {document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}}>Projects</a>
+      <a onClick={() => {document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' })}}>Skills</a>
+      <a onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}>About</a>
+      <a onClick={() => {document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}}>Contact</a>
+    </div>
+    <div id="navbar-toggle">
+      <a onClick={drawerToggleClickHandler}>toggle</a>
     </div>
   </div>
 )
