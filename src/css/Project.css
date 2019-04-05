@@ -1,16 +1,17 @@
 #project-list-container{
   display: flex;
   flex-direction: column;
-  /* top: -250px; */
-  /* justify-content: center; */
+  width:100%;
   align-items: center;
 }
 .project-container{
   display:flex;
+  flex-direction: row;
   /* background-color: aqua; */
   /* border: 1px solid black; */
   height: 250px;
   width: 900px;
+  /* width: 100%; */
   margin-bottom: 20px;
   /* border-radius: 5px; Not sure about this */
   box-shadow: 0 10px 35px rgba(50,50,93,.1),0 2px 15px rgba(0,0,0,.07);
@@ -33,4 +34,39 @@
 }
 .project-desc{
   margin: 5px 5px 5px 5px;
+}
+@media (max-width: 900px) and (min-width: 769px){
+  .project-container{
+    /* height: 250px; */
+    width: 100%;
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  /* Mobile */
+  .project-container{
+    /* height: 250px; */
+    width: 100%;
+    flex-direction: column;
+  }
+  .project-image{
+    width: 60%;
+    /* height: 50%; */
+  }
+  .project-content{
+    /* height: 50%; */
+    width: 100%;
+  }
+  .project-name{
+    font-size: 1em;
+  }
+  .project-desc{
+    font-size: 0.75em;
+  }
+}
+@media (min-width: 769px) {
+  /* Web */
+  .project-container{
+    
+  }
 }

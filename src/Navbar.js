@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = ({scroll,drawerToggleClickHandler}) => (
   <div id="navbar">
-    <a href="#default" id="logo">
+    <a onClick={() => {document.querySelector('#homepage-container').scrollIntoView({ behavior: 'smooth' })}} id="logo">
       LEWIS <strong id="navbar-dot">·</strong> SHAW
     </a>
     <div id="navbar-right">
@@ -12,7 +12,7 @@ const Navbar = ({scroll,drawerToggleClickHandler}) => (
       <a onClick={() => {document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}}>Contact</a>
     </div>
     <div id="navbar-toggle">
-      <a onClick={drawerToggleClickHandler}>toggle</a>
+      <a onClick={drawerToggleClickHandler}>///</a>
     </div>
   </div>
 )

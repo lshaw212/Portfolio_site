@@ -6,11 +6,9 @@
   z-index: 99;
   transition: 0.4s;
 }
-#navbar-right{
+#navbar-right,#navbar-toggle{
   float: right;
-}
-#navbar-toggle{
-  float:right;
+  margin-right: 20px;
 }
 #navbar button,a{
   float: left;
@@ -30,16 +28,16 @@
   background-color: chartreuse;
   color: black;
 }
-/* #navbar-dot{
-  font-size: 3em;
-} */
+
 
 @media (max-width: 768px) {
+  /* Mobile */
   #navbar-right{
     display: none;
   }
 }
 @media (min-width: 769px) {
+  /* Web */
   #navbar-toggle{
     display: none;
   }
