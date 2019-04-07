@@ -36,17 +36,29 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* padding: 10px; */
+  /* margin: 10px; */
 }
 .project-name{
   font-size: 2em;
-  margin: 5px 0 5px 5px;
+  /* margin: 5px 0 5px 5px; */
+  font-family: 'Fira Sans', sans-serif;
+  /* font-weight: 700px; */
+  margin: 10px;
 }
 .project-desc{
-  margin: 5px 5px 5px 5px;
+  /* margin: 5px 5px 5px 5px; */
+  margin: 10px;
 }
 .project-links{
   display: flex;
   justify-content: center;
+  margin: 10px;
+}
+.project-links a{
+  color: inherit;
+  text-decoration:none; 
+  cursor:pointer; 
 }
 @media (max-width: 1210px) and (min-width: 769px){
   .project-container{
@@ -69,9 +81,12 @@
     width: 100%;
   }
   .project-name{
-    font-size: 1em;
+    font-size: 2em;
   }
   .project-desc{
-    font-size: 0.75em;
+    font-size: 1em;
+  }
+  .project-links a{
+    padding: 20px;
   }
 }

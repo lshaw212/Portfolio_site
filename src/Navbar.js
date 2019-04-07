@@ -2,17 +2,17 @@ import React from 'react';
 
 const Navbar = ({scroll,drawerToggleClickHandler}) => (
   <div id="navbar">
-    <a onClick={() => {document.querySelector('#homepage-container').scrollIntoView({ behavior: 'smooth' })}} id="logo">
+    <button onClick={() => {document.querySelector('#homepage-container').scrollIntoView({ behavior: 'smooth' })}} id="logo">
       LEWIS <strong id="navbar-dot">·</strong> SHAW
-    </a>
+    </button>
     <div id="navbar-right">
-      <a onClick={() => {document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}}>Projects</a>
-      <a onClick={() => {document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' })}}>Skills</a>
-      <a onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}>About</a>
-      <a onClick={() => {document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}}>Contact</a>
+      <button onClick={() => {document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}}>Projects</button>
+      <button onClick={() => {document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' })}}>Skills</button>
+      <button onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}>About</button>
+      <button onClick={() => {document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}}>Contact</button>
     </div>
     <div id="navbar-toggle">
-      <a onClick={drawerToggleClickHandler}>///</a>
+      <button onClick={drawerToggleClickHandler}>///</button>
     </div>
   </div>
 )

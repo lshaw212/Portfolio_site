@@ -11,7 +11,7 @@ const Project = ({name, desc, code, website}) => (
     <Fade right>
       <div className="project-content">
         <div className="project-name">{name}</div>
-        <div className="project-desc">{desc}</div>
+        <div className="project-desc light-text">{desc}</div>
 
         <div className="project-links">
           <a href={code}>code</a>

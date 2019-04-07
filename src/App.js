@@ -55,9 +55,9 @@ class App extends Component {
         {backdrop}
         <Homepage/>
         <ProjectList/>
-        {/* <SkillList/> */}
-        {/* <AboutMe/> */}
-        {/* <Contact/> */}
+        <SkillList/>
+        <AboutMe/>
+        <Contact/>
       </div>
     );
   }

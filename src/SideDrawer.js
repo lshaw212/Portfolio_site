@@ -8,19 +8,19 @@ const SideDrawer = ({show,drawerToggleClickHandler}) => {
     <nav className={drawerClasses}>
       <ul onClick={drawerToggleClickHandler}>
         <li>
-          <a onClick={() => {document.querySelector('#homepage-container').scrollIntoView({ behavior: 'smooth' })}}>Home</a>
+          <button onClick={() => {document.querySelector('#homepage-container').scrollIntoView({ behavior: 'smooth' })}}>Home</button>
         </li>
         <li>
-          <a onClick={() => {document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}}>Projects</a>
+          <button onClick={() => {document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}}>Projects</button>
         </li>
         <li>
-          <a onClick={() => {document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' })}}>Skills</a>
+          <button onClick={() => {document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' })}}>Skills</button>
         </li>
         <li>
-          <a onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}>About</a>
+          <button onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}>About</button>
         </li>
         <li>
-          <a onClick={() => {document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}}>Contact</a>
+          <button onClick={() => {document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}}>Contact</button>
         </li>
       </ul>
     </nav>

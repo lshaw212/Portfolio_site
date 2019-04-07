@@ -5,7 +5,7 @@ const AboutMe = () => (
     <a className="anchor" id="about"></a>
     <div id="about-header">About me</div>
     <div id="about-content">
-      <div id="about-text">Here is a small section about me</div>
+      <div id="about-text" className="light-text">Here is a small section about me</div>
       <div id="about-picture"></div>
     </div>
   </div>
