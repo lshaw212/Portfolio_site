@@ -8,7 +8,7 @@ const ProjectList =() => (
   <a className="anchor" id="projects"></a>
     <Heading
       title="Projects"
-      desc="This is a test"
+      desc="All these projects were built by myself, to showcase my skills and my ability to showcase dedication and improvement."
     />
     <Project
       name="Blog@"
