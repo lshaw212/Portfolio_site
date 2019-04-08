@@ -1,11 +1,9 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-const Skill = ({time}) => (
+const Skill = ({time,size,icon}) => (
   <Fade>
-    <div className="skill">
-      Skill
-    </div>
+    <i className={icon}></i>
   </Fade>
 )
 
