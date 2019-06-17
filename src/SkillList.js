@@ -15,16 +15,17 @@ class SkillList extends Component {
         />
         <div className="skill-row">
           {/* <img src="./html5.svg" alt=""/> */}
-          <Skill icon="devicon-html5-plain-wordmark colored skill-size"/>
-          <Skill icon="devicon-css3-plain-wordmark colored skill-size"/>
-          <Skill icon="devicon-javascript-plain colored skill-size"/>
-          <Skill icon="devicon-react-original-wordmark colored skill-size"/>  
-          <Skill icon="devicon-express-original-wordmark colored skill-size"/>
-          <Skill icon="devicon-nodejs-plain colored skill-size"/>
-          <Skill icon="devicon-git-plain-wordmark colored skill-size"/>
-          <Skill icon="devicon-github-plain-wordmark colored skill-size"/>
-          <Skill icon="devicon-mongodb-plain-wordmark colored skill-size"/>
-          <Skill icon="devicon-bootstrap-plain-wordmark colored skill-size"/>
+          <Skill icon="devicon-html5-plain colored skill-size" name="HTML5"/>
+          <Skill icon="devicon-css3-plain colored skill-size" name="CSS3"/>
+          <Skill icon="devicon-javascript-plain colored skill-size" name="JavaScript"/>
+          <Skill icon="devicon-react-original colored skill-size " name="ReactJS"/>  
+          <Skill icon="devicon-express-original colored skill-size" name="ExpressJS"/>
+          <Skill icon="devicon-nodejs-plain colored skill-size" name="NodeJS"/>
+          <Skill icon="devicon-git-plain colored skill-size" name="git"/>
+          <Skill icon="devicon-github-plain colored skill-size" name="GitHub"/>
+          <Skill icon="devicon-mongodb-plain colored skill-size" name="MongoDB"/>
+          <Skill icon="devicon-bootstrap-plain colored skill-size" name="Bootstrap"/>
+          <Skill icon="devicon-postgresql-plain colored skill-size" name="PostgreSQL" />
         </div>
       </div>
     )

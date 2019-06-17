@@ -1,4 +1,4 @@
-#homepage-container{
+#homepage-background{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,4 +11,14 @@
   /* background-position: 50% 50%; */
   background-size: cover;
   /* filter: blur(1px); */
+}
+#homepage-container{
+  
+}
+#homepage-first-line{
+  display: flex;
+  flex-direction: row;
+}
+#homepage-space{
+  margin-right: 5px;
 }

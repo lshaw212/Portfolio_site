@@ -28,7 +28,7 @@
   background: none;
   outline:0
 }
-#navbar-dot{
+.navbar-heading{
   /* font-size: 2em; */
   padding: 0 5px 0 5px;
   color: red;

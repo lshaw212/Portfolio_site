@@ -2,11 +2,9 @@ import React from 'react';
 
 const Contact = () => (
   <div id="contact-container">
-    <a className="anchor" id="contact"></a>
-    <div>Contact me</div>
-    <div>I'm looking for Junior Web Development work in Scotland.</div>
-    <div>Would love to hear from you, my email is Lshaw212@gmail.com</div>
-    <div>You can also find me on Linkedin</div>
+    <div id="contact-header">Contact me</div>
+    <div>OTHER CONTACT INFO HERE</div>
+    <div id="contact-copyright">© 2019 | Property of <strong>Lewis Shaw</strong>, All Rights Reserved</div>
   </div>
 )
 

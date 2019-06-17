@@ -5,6 +5,7 @@
 @import "./css/Navbar.css";
 @import "./css/Skills.css";
 @import "./css/About.css";
+@import "./css/Contact.css";
 html{
   scroll-behavior: smooth;
 }
@@ -31,14 +32,6 @@ a.anchor {
   position: relative;
   top: -89px;
   visibility: hidden;
-}
-#contact-container{
-  background-color: grey;
-  width: 100%;
-  height: 350px;
-  display:flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 .light-text{
   color: #3a3a3a;
