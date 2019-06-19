@@ -6,17 +6,32 @@ const Homepage = () => (
     <div id="homepage-container">
       <div id="homepage-first-line">
         <Fade delay={200}>
-          <div id="homepage-space">Hi!</div>
+          <div className="homepage-text homepage-space">Hi!</div>
         </Fade>
-        <Fade delay={1000}>
-          <div> I'm Lewis</div>
+        <Fade delay={1500}>
+          <div className="homepage-text"> I'm Lewis</div>
         </Fade>
       </div>
-      <Fade delay={2000}>
-        <div>A Junior Web Developer based in Scotland.</div>
+      <Fade delay={3000}>
+        <div className="homepage-text">A Junior Web Developer based in Scotland.</div>
       </Fade>
-      
+      <div id="homepage-icon-group">
+        <Fade delay={4000}>
+          <a href="https://www.linkedin.com/in/lshaw212/" className="homepage-icon-spacing">
+            <div className="homepage-icon" id="linkedin-icon"></div>
+          </a>
+        </Fade>
+        <Fade delay={4500}>
+          <a href="https://github.com/lshaw212" className="homepage-icon-spacing">
+            <div className="homepage-icon" id="github-icon"/>
+          </a>  
+        </Fade>
+      </div>
+      {/* <div id="homepage-scroll">
+        <div id="scroll-indicator" onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}/>
+      </div> */}
     </div>
+    
   </div>
 )
 

@@ -31,7 +31,7 @@
 .navbar-heading{
   /* font-size: 2em; */
   padding: 0 5px 0 5px;
-  color: red;
+  color: rgb(212, 122, 122);
 }
 
 .navbar-btn{
@@ -55,7 +55,7 @@
   left: 0; right: 0;
   height: 2px;
   opacity: 0;
-  background-color: blue;
+  background-color: #124383;
 }
 .navbar-btn:before{
   transform: translateY(-8px);

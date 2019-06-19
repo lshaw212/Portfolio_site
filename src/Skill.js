@@ -5,7 +5,7 @@ const Skill = ({time,size,icon,name}) => (
   <Fade>
     <div className="skill-container">
       <i className={icon}></i>
-      <div>{name}</div>
+      <div className="skill-name">{name}</div>
     </div>
   </Fade>
 )

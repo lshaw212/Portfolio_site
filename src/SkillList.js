@@ -8,10 +8,10 @@ class SkillList extends Component {
   render(){
     return(
       <div id="skill-list">
-      <a className="anchor" id="skills"></a>
+        <a className="anchor" id="skills"/>
         <Heading
           title="Skills"
-          desc="Skills List"
+          desc="A list of the technologies I've picked up during my... "
         />
         <div className="skill-row">
           {/* <img src="./html5.svg" alt=""/> */}

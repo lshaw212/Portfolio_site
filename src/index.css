@@ -26,13 +26,34 @@ body {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-} */
+}| */
 a.anchor {
   display: block;
   position: relative;
-  top: -89px;
+  top: -65px;
   visibility: hidden;
 }
 .light-text{
   color: #3a3a3a;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  /* border-radius: 10px; */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3e7fba; 
+  /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #275178; 
 }

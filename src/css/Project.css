@@ -3,6 +3,7 @@
   flex-direction: column;
   width:100%;
   align-items: center;
+  background-color: white;
 }
 .project-container{
   display:flex;
@@ -42,12 +43,15 @@
 .project-name{
   font-size: 2em;
   /* margin: 5px 0 5px 5px; */
-  font-family: 'Fira Sans', sans-serif;
-  /* font-weight: 700px; */
+  font-family: 'Montserrat', sans-serif;
+  color: #3a3a3a;
+  font-weight: bold;
   margin: 10px;
 }
 .project-desc{
+  color: #3a3a3a;
   /* margin: 5px 5px 5px 5px; */
+  font-family: 'Fira Sans', sans-serif;
   margin: 10px;
 }
 .project-links{
