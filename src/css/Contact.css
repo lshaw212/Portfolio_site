@@ -7,13 +7,30 @@
   align-items: center;
   justify-content: space-between;
 }
+#contact-header-container{
+
+}
 #contact-header{
   font-family: 'Montserrat', sans-serif;
-  /* color: #3a3a3a; */
+  color: #3a3a3a;
   font-size: 2em;
   font-weight: bold;
 }
 
 #contact-copyright{
   font-size: .9em;
+}
+#information-container{
+  display: flex;
+  height: 50%;
+  width: 40%;
+}
+#information-1{
+  /* background-color: red; */
+  
+  width: 70%;
+}
+#information-2{
+  /* background-color: blue; */
+  width: 30%;
 }

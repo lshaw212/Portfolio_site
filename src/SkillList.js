@@ -11,6 +11,7 @@ class SkillList extends Component {
         <a className="anchor" id="skills"/>
         <Heading
           title="Skills"
+          hr="white-hr"
           desc="A list of the technologies I've picked up during my... "
         />
         <div className="skill-row">

@@ -4,8 +4,10 @@ import Heading from './Heading';
 const AboutMe = () => (
   <div id="about-container">
     <a className="anchor" id="about"></a>
-    <div id="about-header">About me</div>
-    {/* <Heading title="About me" /> */}
+    <Heading
+      title="About me"
+      hr="blue-hr"
+    />
     <div id="about-content">
       <div id="about-text" className="light-text">
         I am a Computer Games Programming graduate with a 2:1 honours degree from 
