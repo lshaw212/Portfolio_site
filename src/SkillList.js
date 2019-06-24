@@ -15,18 +15,17 @@ class SkillList extends Component {
           desc="A list of the technologies I've picked up during my... "
         />
         <div className="skill-row">
-          {/* <img src="./html5.svg" alt=""/> */}
-          <Skill icon="devicon-html5-plain colored skill-size" name="HTML5"/>
-          <Skill icon="devicon-css3-plain colored skill-size" name="CSS3"/>
-          <Skill icon="devicon-javascript-plain colored skill-size" name="JavaScript"/>
-          <Skill icon="devicon-react-original colored skill-size " name="ReactJS"/>  
-          <Skill icon="devicon-express-original colored skill-size" name="ExpressJS"/>
-          <Skill icon="devicon-nodejs-plain colored skill-size" name="NodeJS"/>
-          <Skill icon="devicon-git-plain colored skill-size" name="git"/>
-          <Skill icon="devicon-github-plain colored skill-size" name="GitHub"/>
-          <Skill icon="devicon-mongodb-plain colored skill-size" name="MongoDB"/>
-          <Skill icon="devicon-bootstrap-plain colored skill-size" name="Bootstrap"/>
-          <Skill icon="devicon-postgresql-plain colored skill-size" name="PostgreSQL" />
+          <Skill icon="html-icon skill-size" name="HTML5"/>
+          <Skill icon="css3-icon skill-size" name="CSS3"/>
+          <Skill icon="javascript-icon skill-size" name="JavaScript"/>
+          <Skill icon="react-icon skill-size" name="ReactJS"/>  
+          <Skill icon="express-icon skill-size" name="ExpressJS"/>
+          <Skill icon="node-icon skill-size" name="NodeJS"/>
+          <Skill icon="git-icon skill-size" name="git"/>
+          <Skill icon="github-icon skill-size" name="GitHub"/>
+          <Skill icon="mongodb-icon skill-size" name="MongoDB"/>
+          <Skill icon="bootstrap-icon skill-size" name="Bootstrap"/>
+          <Skill icon="postgresSQL-icon skill-size" name="PostgreSQL" />
         </div>
       </div>
     )

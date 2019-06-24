@@ -10,6 +10,13 @@
 #contact-header-container{
 
 }
+.linkedin-details{
+  color: "#2c2b2b";
+  font-size: 1.5em;
+}
+.linkedin-details span{
+  padding-right: 10px;
+}
 #contact-header{
   font-family: 'Montserrat', sans-serif;
   color: #3a3a3a;
@@ -33,4 +40,18 @@
 #information-2{
   /* background-color: blue; */
   width: 30%;
+}
+@media (max-width: 768px) {
+  #information-container{
+    width: 100%;
+  }
+  #information-1{
+    /* background-color: red; */
+    
+    width: 60%;
+  }
+  #information-2{
+    /* background-color: blue; */
+    width: 40%;
+  }
 }

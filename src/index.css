@@ -69,3 +69,30 @@ a.anchor {
 ::-webkit-scrollbar-thumb:hover {
   background: #275178; 
 }
+
+/*  */
+/* Icons */
+/*  */
+
+#linkedin-homepage-icon{
+  background-image: url(./images/linkedin.svg);
+  /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
+}
+#github-homepage-icon{
+  background-image: url(./images/github.svg); 
+}
+
+.homepage-icon{
+  
+  height: 50px;
+  width: 50px;
+  /* width: auto; */
+  transition: all 300ms ease;
+}
+.homepage-icon-spacing{
+  margin: 20px 40px 0 0;
+}
+.homepage-icon:hover{
+  transform: scale(0.9);
+  opacity: 0.75;
+}

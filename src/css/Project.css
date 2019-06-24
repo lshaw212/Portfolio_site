@@ -8,7 +8,6 @@
 .project-container{
   display:flex;
   flex-direction: row;
-  /* background-color: aqua; */
   /* border: 1px solid black; */
   height: 450px;
   width: 1200px;

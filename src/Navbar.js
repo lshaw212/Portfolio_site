@@ -8,7 +8,7 @@ const Navbar = ({scroll,drawerToggleClickHandler}) => (
       <div className="navbar-heading">{"/>"}</div>
     </button>
     <div id="navbar-right">
-    <button className="navbar-btn" onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}>About</button>
+      <button className="navbar-btn" onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}>About</button>
       <button className="navbar-btn" onClick={() => {document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' })}}>Skills</button>
       <button className="navbar-btn" onClick={() => {document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}}>Projects</button>
       <button className="navbar-btn" onClick={() => {document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}}>Contact</button>

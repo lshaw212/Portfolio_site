@@ -1,25 +1,9 @@
 #skill-list{
   display: flex;
   flex-direction: column;
-  /* width: 900px; */
+  align-items: center;
   width: 100%;
   margin-bottom: 30px;
-  /* justify-content: center; */
-  align-items: center;
-}
-.skill-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 40px;
-}
-.skill-size{
-  font-size: 6em;
-  margin-bottom: 10px;
-  transition: all 300ms ease;
-}
-.skill-size:hover{
-  opacity: 0.75;
 }
 .skill-row{
   display: flex;
@@ -27,16 +11,46 @@
   justify-content: center;
   width: 60%;
 }
+.skill-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
+.html-icon{background-image: url(../images/html5.svg);}
+.css3-icon{background-image: url(../images/css3.svg);}
+.javascript-icon{background-image: url(../images/javascript.svg);}
+.react-icon{background-image: url(../images/react.svg);}
+.express-icon{background-image: url(../images/express.svg);}
+.node-icon{background-image: url(../images/nodejs.svg);}
+.git-icon{background-image: url(../images/git.svg);}
+.github-icon{background-image: url(../images/github.svg);}
+.mongodb-icon{background-image: url(../images/mongodb.svg);}
+.bootstrap-icon{background-image: url(../images/bootstrap.svg);}
+.postgresSQL-icon{background-image: url(../images/postgresql.svg);}
+
+.skill-size{
+  /* font-size: 6em; */
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  transition: all 300ms ease;
+}
+.skill-size:hover{
+  opacity: 0.75;
+}
 .skill-name{
   font-family: 'Fira Sans', sans-serif;
   font-weight: bold;
   color: #2c2b2b;
 }
+/* Tablet + Smaller size */
 @media (max-width: 900px) and (min-width: 769px){
   #skill-list{
     /* width: 100%; */
   }
 }
+/* Mobile */
 @media (max-width: 768px) {
   #skill-list{
     /* width: 100%; */
