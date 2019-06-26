@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio_site/static/css/main.62b9f1d8.chunk.css",
+    "main.js": "/Portfolio_site/static/js/main.1d5805e4.chunk.js",
+    "main.js.map": "/Portfolio_site/static/js/main.1d5805e4.chunk.js.map",
+    "runtime~main.js": "/Portfolio_site/static/js/runtime~main.947ac920.js",
+    "runtime~main.js.map": "/Portfolio_site/static/js/runtime~main.947ac920.js.map",
+    "static/js/2.5012f6b2.chunk.js": "/Portfolio_site/static/js/2.5012f6b2.chunk.js",
+    "static/js/2.5012f6b2.chunk.js.map": "/Portfolio_site/static/js/2.5012f6b2.chunk.js.map",
+    "index.html": "/Portfolio_site/index.html",
+    "precache-manifest.f06037bc408b5a6366384b8e405c301d.js": "/Portfolio_site/precache-manifest.f06037bc408b5a6366384b8e405c301d.js",
+    "service-worker.js": "/Portfolio_site/service-worker.js",
+    "static/css/main.62b9f1d8.chunk.css.map": "/Portfolio_site/static/css/main.62b9f1d8.chunk.css.map",
+    "static/media/Blog@.jpg": "/Portfolio_site/static/media/Blog@.f846993e.jpg",
+    "static/media/Blog@2.jpg": "/Portfolio_site/static/media/Blog@2.6a556158.jpg",
+    "static/media/ReactCalc.jpg": "/Portfolio_site/static/media/ReactCalc.b43cda2c.jpg",
+    "static/media/ReactCalc2.jpg": "/Portfolio_site/static/media/ReactCalc2.604bc632.jpg",
+    "static/media/index.css": "/Portfolio_site/static/media/scroll.2c0862a6.svg"
+  }
+}
