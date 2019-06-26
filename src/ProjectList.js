@@ -14,7 +14,7 @@ const ProjectList =() => (
     <Project
       name="Blog@"
       image=""
-      desc="Blog@ is a web application built to create and share blogs with multiple users. This project was built using React with Node.js and the Express.js framework for the backend. Blog@ uses a RESTful API to fetch data from our MongoDB and also utilizes Redux to manage application and user state."
+      desc="Blog@ is a web application built to create and share blogs with multiple users. This project was built using React with Node.js and the Express.js framework for the backend. Blog@ uses a RESTful API to fetch data from  MongoDB and also utilizes Redux to manage application and user state."
       desc_extra="As my first full stack application, I feel I was able to showcase many different skills to bring together a functioning application."
       code="https://github.com/lshaw212/blogat"
       website="https://blogat-ls.herokuapp.com/"

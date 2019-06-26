@@ -10,13 +10,6 @@
 #contact-header-container{
 
 }
-.linkedin-details{
-  color: "#2c2b2b";
-  font-size: 1.5em;
-}
-.linkedin-details span{
-  padding-right: 10px;
-}
 #contact-header{
   font-family: 'Montserrat', sans-serif;
   color: #3a3a3a;
@@ -31,19 +24,40 @@
   display: flex;
   height: 50%;
   width: 40%;
+  color: #2c2b2b;
+  font-family: 'Fira Sans', sans-serif;
 }
 #information-1{
-  /* background-color: red; */
-  
-  width: 70%;
+  width: 60%;
+  font-size: 1.25em;
+}
+#information-1 div{
+  margin: 0 10px 10px 0;
 }
 #information-2{
-  /* background-color: blue; */
-  width: 30%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  
 }
-@media (max-width: 768px) {
+#information-2-header{
+  font-size: 1.25em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.contact-details{
+  color: inherit;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.contact-details span{
+  padding-right: 10px;
+}
+@media (max-width: 1140px) and (min-width: 769px){
   #information-container{
-    width: 100%;
+    width: 70%;
   }
   #information-1{
     /* background-color: red; */
@@ -53,5 +67,29 @@
   #information-2{
     /* background-color: blue; */
     width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  #contact-container{
+    height: 450px;
+  }
+  #information-container{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #information-1{
+    /* background-color: red; */
+    
+    width: 90%;
+  }
+  #information-2{
+    /* background-color: blue; */
+    width: 30%;
+  }
+  #information-2-header{
+    display: flex;
+    justify-content: center;
   }
 }

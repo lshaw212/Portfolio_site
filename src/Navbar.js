@@ -14,7 +14,12 @@ const Navbar = ({scroll,drawerToggleClickHandler}) => (
       <button className="navbar-btn" onClick={() => {document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}}>Contact</button>
     </div>
     <div id="navbar-toggle">
-      <button onClick={drawerToggleClickHandler}>///</button>
+      {/* <button onClick={drawerToggleClickHandler}>///</button> */}
+      <div className="hamburger" id="hamburger-1" onClick={drawerToggleClickHandler}>
+        <span className="line"></span>
+        <span className="line"></span>
+        <span className="line"></span>
+      </div>
     </div>
   </div>
 )
