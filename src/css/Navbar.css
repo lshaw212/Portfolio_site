@@ -11,7 +11,6 @@
   color: #2c2b2b;
 }
 #navbar-right,#navbar-toggle{
-  /* float: right; */
   margin-right: 20px;
 }
 #navbar-right{
@@ -23,22 +22,17 @@
   font-family: 'Montserrat', sans-serif;
   color: #2c2b2b;
   font-weight: bold;
-  /* padding: 12px; */
   text-decoration: none;
   font-size: 1.25em;
   line-height: 25px;
-  /* border-radius: 4px; */
   border:none;
   cursor: pointer;
   background: none;
   outline:0
 }
 .navbar-heading{
-  /* font-size: 2em; */
   padding: 0 5px 0 5px;
-  /* color: rgb(212, 122, 122); */
   color: #3e7fba;
-  color: #20486d;
 }
 
 .navbar-btn{
@@ -163,7 +157,7 @@
 .hamburger .line{
   width: 50px;
   height: 5px;
-  background-color: #2c2b2b;;
+  background-color: #2c2b2b;
   display: block;
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;

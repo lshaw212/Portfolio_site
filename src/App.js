@@ -31,10 +31,12 @@ class App extends Component {
       document.querySelectorAll(".navbar-btn")[1].style.color = "white";
       document.querySelectorAll(".navbar-btn")[2].style.color = "white";
       document.querySelectorAll(".navbar-btn")[3].style.color = "white";
-      // document.getElementById("navbar-right").style.color = "white"
-      // document.getElementsByClassName("navbar-btn").style.color = "white";
-      // document.querySelectorAll(".navbar-btn").style.color = "white";
-      // document.getElementById("logo").style.fontSize = "25px";
+      document.querySelectorAll(".navbar-heading")[0].style.color = "#a4cae6";
+      document.querySelectorAll(".navbar-heading")[1].style.color = "#a4cae6";
+      document.querySelectorAll(".line")[0].style.backgroundColor = "white";
+      document.querySelectorAll(".line")[1].style.backgroundColor = "white";
+      document.querySelectorAll(".line")[2].style.backgroundColor = "white";
+      document.getElementById("scroll-indicator").style.opacity = "0";
     } else {
       document.getElementById("navbar").style.backgroundColor = "transparent";
       document.getElementById("navbar").style.boxShadow = "none";
@@ -44,7 +46,12 @@ class App extends Component {
       document.querySelectorAll(".navbar-btn")[1].style.color = "#2c2b2b";
       document.querySelectorAll(".navbar-btn")[2].style.color = "#2c2b2b";
       document.querySelectorAll(".navbar-btn")[3].style.color = "#2c2b2b";
-      // document.getElementById("logo").style.fontSize = "35px";
+      document.querySelectorAll(".navbar-heading")[0].style.color = "#3e7fba";
+      document.querySelectorAll(".navbar-heading")[1].style.color = "#3e7fba";
+      document.querySelectorAll(".line")[0].style.backgroundColor = "#2c2b2b";
+      document.querySelectorAll(".line")[1].style.backgroundColor = "#2c2b2b";
+      document.querySelectorAll(".line")[2].style.backgroundColor = "#2c2b2b";
+      document.getElementById("scroll-indicator").style.opacity = "0.75";
     }
   }
   drawerToggleClickHandler = () => {

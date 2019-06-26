@@ -1,12 +1,20 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-const Project = ({name, image, desc, desc_extra, code, website}) => (
+const Project = ({name, image, image2, desc, desc_extra, code, website}) => (
   <div className="project-container">
     <Fade left>
-      <div className="project-image">
-        <img src="https://i.imgur.com/4Jm5K2s.jpg" alt=""/>
-      </div>
+      
+        {image2 ?(
+          <div className="project-image">
+            <img src={image} className="img1" alt="project image" />
+            <img src={image2} className="img2" alt="project second image" />
+          </div>
+        ) : (
+          <div className="project-image">
+            <img src={image} alt="project image" />
+          </div>
+        )}
     </Fade>
     <Fade right>
       <div className="project-content">

@@ -6,8 +6,8 @@ import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => (
   <div id="contact-container">
-    <a className="anchor" id="contact"></a>
     <div id="contact-header-container">
+      <a className="anchor" id="contact"></a>
       <div id="contact-header">Contact me</div>
       <hr className="white-hr" />
     </div>

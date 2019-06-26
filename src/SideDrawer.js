@@ -11,13 +11,13 @@ const SideDrawer = ({show,drawerToggleClickHandler}) => {
           <button className="navbar-btn" onClick={() => {document.querySelector('#homepage-container').scrollIntoView({ behavior: 'smooth' })}}>Home</button>
         </li>
         <li>
-          <button className="navbar-btn" onClick={() => {document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}}>Projects</button>
+          <button className="navbar-btn" onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}>About</button>
         </li>
         <li>
           <button className="navbar-btn" onClick={() => {document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' })}}>Skills</button>
         </li>
         <li>
-          <button className="navbar-btn" onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}>About</button>
+          <button className="navbar-btn" onClick={() => {document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}}>Projects</button>
         </li>
         <li>
           <button className="navbar-btn" onClick={() => {document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}}>Contact</button>

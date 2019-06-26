@@ -27,9 +27,9 @@ const Homepage = () => (
           </a>  
         </Fade>
       </div>
-      {/* <div id="homepage-scroll">
+      <div id="homepage-scroll">
         <div id="scroll-indicator" onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}/>
-      </div> */}
+      </div>
     </div>
     
   </div>
