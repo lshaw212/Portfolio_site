@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5403d4c27975f0183bf4f851cb225d4a",
+    "revision": "5cd8dcd701693a5ece64b77d6fcc69a2",
     "url": "/index.html"
   },
   {
-    "revision": "3178389618254c9ac3d0",
-    "url": "/static/css/main.44980ebb.chunk.css"
+    "revision": "835a8af169a724a3d02e",
+    "url": "/static/css/main.ecdb8a2c.chunk.css"
   },
   {
-    "revision": "5fec7a57b8c76c1da21a",
-    "url": "/static/js/2.5012f6b2.chunk.js"
+    "revision": "9d9d7fb4f73b66cee7f6",
+    "url": "/static/js/2.94b3a8a3.chunk.js"
   },
   {
-    "revision": "3178389618254c9ac3d0",
-    "url": "/static/js/main.628c6c01.chunk.js"
+    "revision": "835a8af169a724a3d02e",
+    "url": "/static/js/main.a709fe0a.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -24,16 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Blog@.f846993e.jpg"
   },
   {
-    "revision": "6a5561584add9d53b1f89fdd95ae8adf",
-    "url": "/static/media/Blog@2.6a556158.jpg"
-  },
-  {
     "revision": "b43cda2c6675cd573628aa225277e37a",
     "url": "/static/media/ReactCalc.b43cda2c.jpg"
-  },
-  {
-    "revision": "604bc6327079dfbf6725b260925f2ff5",
-    "url": "/static/media/ReactCalc2.604bc632.jpg"
   },
   {
     "revision": "29f2096a7bdd199e892275d115706bcd",
@@ -78,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ccb43d3400fb05951c89ad3ba6acd9d5",
     "url": "/static/media/nodejs.ccb43d34.svg"
+  },
+  {
+    "revision": "d817e29742391f922a434242c936edf4",
+    "url": "/static/media/portfolio.d817e297.jpg"
   },
   {
     "revision": "1e83f7103d15e32357b2dc768106fac0",
