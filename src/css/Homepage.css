@@ -28,26 +28,6 @@
   display: flex;
 }
 
-/* Tablet + Smaller size */
-@media (max-width: 1106px) and (min-width: 769px){
-  .homepage-text{
-    font-size: 2.5em;
-  }
-  #homepage-container{
-    width: 55%;
-  }
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  .homepage-text{
-    font-size: 1.5em;
-  }
-  #homepage-container{
-    width: 65%;
-  }
-}
-
 /*  */
 /* Scroll stuff to fix later */
 /*  */
@@ -56,7 +36,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  top: 150px;
+  top: 75px;
 }
 #scroll-indicator{
   background-image: url(../images/scroll.svg);
@@ -79,4 +59,28 @@
   0% { transform: translateY(10%); }
   50%   { transform: translateY(40%); }
   100% { transform: translateY(10%); }
+}
+
+
+/* Tablet + Smaller size */
+@media (max-width: 1106px) and (min-width: 769px){
+  .homepage-text{
+    font-size: 2.5em;
+  }
+  #homepage-container{
+    width: 55%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  /* #homepage-scroll{
+    top: 100px;
+  } */
+  .homepage-text{
+    font-size: 1.5em;
+  }
+  #homepage-container{
+    width: 65%;
+  }
 }

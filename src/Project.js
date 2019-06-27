@@ -3,8 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 const Project = ({name, image, image2, desc, desc_extra, code, website}) => (
   <div className="project-container">
-    <Fade left>
-      
+    {/* <Fade left> */}
         {image2 ?(
           <div className="project-image">
             <img src={image} className="img1" alt="project image" />
@@ -15,8 +14,8 @@ const Project = ({name, image, image2, desc, desc_extra, code, website}) => (
             <img src={image} alt="project image" />
           </div>
         )}
-    </Fade>
-    <Fade right>
+    {/* </Fade> */}
+    {/* <Fade right> */}
       <div className="project-content">
         <div className="project-name">{name}</div>
         <div className="project-desc light-text">{desc}</div>
@@ -26,7 +25,7 @@ const Project = ({name, image, image2, desc, desc_extra, code, website}) => (
           <a className="navbar-btn" href={website}>Demo</a>
         </div>
       </div>
-    </Fade>
+    {/* </Fade> */}
   </div>
 )
 
