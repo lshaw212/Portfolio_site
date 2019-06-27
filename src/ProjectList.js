@@ -26,7 +26,7 @@ const ProjectList =() => (
     />
     <hr className="blue-hr"/>
     <Project
-      name="React Calc"
+      name="React Calculator"
       image={calcImage1}
       desc="This small project was created to showcase a calculator being built as a web app. Programmed with the React library, it utilizes reusable components while maintaining the use of the 4 basic operators and a numpad functionality. Designed around web and mobile, this calculator is styled to replicate an old casio calculator."
       code="https://github.com/lshaw212/react_calc"

@@ -12,7 +12,7 @@ class SkillList extends Component {
         <Heading
           title="Skills"
           hr="white-hr"
-          desc="A list of the technologies I've picked up during my... "
+          desc="A list of the technologies I've learned and used during my time with web development. "
         />
         <div className="skill-row">
           <Skill icon="html-icon skill-size" name="HTML5"/>
