@@ -7,15 +7,27 @@
 @import "./css/About.css";
 @import "./css/Contact.css";
 html{
+  min-height: 100vh;
+  height: 100vh;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background-image: url(./images/background.svg);
+  background-position: center;
+
+  transition: 0.5s;
+  background-size: cover;
+  background-attachment: fixed;
 }
 body {
+  /* height: 100vh; */
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+html, body {
+  min-height: 100%;
 }
 .App{
   /* display: flex; */
@@ -96,4 +108,12 @@ a.anchor {
 .homepage-icon:hover{
   transform: scale(0.9);
   opacity: 0.75;
+}
+
+/* Tablet + Smaller size */
+@media (max-width: 1106px) {
+  html{
+    /* min-height: -webkit-fill-available; */
+  }
+  
 }

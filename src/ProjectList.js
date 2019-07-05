@@ -16,7 +16,7 @@ const ProjectList =() => (
     <Project
       name="Blog@"
       image={blogImage}
-      desc="Blog@ is a web application built to create and share blogs with multiple users. This project was built using React with Node.js and the Express.js framework for the backend. Blog@ uses a RESTful API to fetch data from  MongoDB and also utilizes Redux to manage application and user state."
+      desc="Blog@ is a web application built to create and share blogs with multiple users. This project was built using React with Node.js and the Express.js framework for the backend. Blog@ uses a RESTful API to fetch data from  MongoDB and also utilises Redux to manage application and user state."
       desc_extra="As my first full stack application, I feel I was able to showcase many different skills to bring together a functioning application."
       code="https://github.com/lshaw212/blogat"
       website="https://blogat-ls.herokuapp.com/"
@@ -25,7 +25,7 @@ const ProjectList =() => (
     <Project
       name="React Calculator"
       image={calcImage}
-      desc="This small project was created to showcase a calculator being built as a web app. Programmed with the React library, it utilizes reusable components while maintaining the use of the 4 basic operators and a numpad functionality. Designed around web and mobile, this calculator is styled to replicate an old casio calculator."
+      desc="This small project was created to showcase a calculator being built as a web application. Programmed with the React library, it utilises reusable components while maintaining the use of the 4 basic operators and a numpad functionality. Designed around web and mobile, this calculator is styled to replicate an old Casio calculator."
       code="https://github.com/lshaw212/react_calc"
       website="https://lshaw-react-calc.herokuapp.com/"
     />

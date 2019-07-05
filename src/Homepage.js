@@ -17,12 +17,12 @@ const Homepage = () => (
       </Fade>
       <div id="homepage-icon-group">
         <Fade delay={4000}>
-          <a href="https://www.linkedin.com/in/lshaw212/" target="_blank" className="homepage-icon-spacing">
+          <a href="https://www.linkedin.com/in/lshaw212/" target="_blank" rel="noopener noreferrer" className="homepage-icon-spacing">
             <div className="homepage-icon" id="linkedin-homepage-icon"/>
           </a>
         </Fade>
         <Fade delay={4500}>
-          <a href="https://github.com/lshaw212" target="_blank" className="homepage-icon-spacing">
+          <a href="https://github.com/lshaw212" target="_blank" rel="noopener noreferrer" className="homepage-icon-spacing">
             <div className="homepage-icon" id="github-homepage-icon"/>
           </a>  
         </Fade>

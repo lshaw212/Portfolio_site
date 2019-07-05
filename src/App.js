@@ -67,8 +67,18 @@ class App extends Component {
     el.classList.toggle('is-active');
   }
 
+  resizeBG = () => {
+    // let bg = document.documentElement
+
+    // console.log(bg);
+
+  }
+
+
   render() {
     let backdrop;
+
+    this.resizeBG();
 
     if (this.state.sideDrawerOpen)
       backdrop = <Backdrop click={this.backdropClickHandler} />;

@@ -18,10 +18,10 @@ const Contact = () => (
       </div>
       <div id="information-2">
         <div id="information-2-header">Get in contact!</div>
-        <a href="https://www.linkedin.com/in/lshaw212/" target="_blank" className="contact-details"><span><FontAwesomeIcon icon={faLinkedinIn}/></span>Linkedin</a>
-        <a href="https://github.com/lshaw212" target="_blank" className="contact-details"><span><FontAwesomeIcon icon={faGithub}/></span>Github</a>
+        <a href="https://www.linkedin.com/in/lshaw212/" target="_blank" rel="noopener noreferrer" className="contact-details"><span><FontAwesomeIcon icon={faLinkedinIn}/></span>Linkedin</a>
+        <a href="https://github.com/lshaw212" target="_blank" rel="noopener noreferrer" className="contact-details"><span><FontAwesomeIcon icon={faGithub}/></span>Github</a>
         <a href="mailto:lshaw212@gmail.com" className="contact-details"><span><FontAwesomeIcon icon={faEnvelope}/></span>lshaw212@gmail.com</a>
-        <a href="./images/Lewis_Shaw_CV.docx" download className="contact-details"><span><FontAwesomeIcon icon={faFileDownload}/></span>Download CV</a>
+        <a href="https://drive.google.com/file/d/1Qso5fh40GAJLatTwoLuNeeiNJ8nl20Yf/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-details"><span><FontAwesomeIcon icon={faFileDownload}/></span>Download CV</a>
       </div>
     </div>
     <div id="contact-copyright">© 2019 | Property of <strong>Lewis Shaw</strong>, All Rights Reserved</div>
