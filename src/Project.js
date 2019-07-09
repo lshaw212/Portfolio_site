@@ -3,7 +3,7 @@ import React from 'react';
 const Project = ({name, image, desc, desc_extra, code, website}) => (
   <div className="project-container">
     <div className="project-image">
-      <img src={image} alt="project image" />
+      <img src={image} alt="project" />
     </div>
     <div className="project-content">
       <div className="project-name">{name}</div>

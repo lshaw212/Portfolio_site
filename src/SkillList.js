@@ -8,7 +8,7 @@ class SkillList extends Component {
   render(){
     return(
       <div id="skill-list">
-        <a className="anchor" id="skills"/>
+        <div className="anchor" id="skills"/>
         <Heading
           title="Skills"
           hr="white-hr"

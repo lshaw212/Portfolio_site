@@ -7,7 +7,7 @@ import portfolioImage from './images/portfolio.jpg';
 
 const ProjectList =() => (
   <div id="project-list-container">
-  <a className="anchor" id="projects"></a>
+  <div className="anchor" id="projects"/>
     <Heading
       title="Projects"
       hr="blue-hr"

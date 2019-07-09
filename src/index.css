@@ -52,7 +52,7 @@ html, body {
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 } */
-a.anchor {
+div.anchor {
   display: block;
   position: relative;
   top: -65px;
