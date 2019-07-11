@@ -22,7 +22,6 @@ class App extends Component {
 
   scrollFunction(){
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-      // document.getElementById("navbar").style.backgroundColor = "rgba(62, 127, 186, 0.7)";
       document.getElementById("navbar").style.backgroundColor = "rgba(32, 72, 109, 0.85)";
       document.getElementById("navbar").style.boxShadow = "0 0 10px black";
       document.getElementById("navbar").style.padding = "10px 10px";
