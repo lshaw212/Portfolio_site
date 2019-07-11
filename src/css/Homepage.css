@@ -29,7 +29,7 @@
 }
 
 /*  */
-/* Scroll stuff to fix later */
+/* Scrolling Indicator*/
 /*  */
 
 #homepage-scroll{
@@ -40,7 +40,7 @@
 }
 #scroll-indicator{
   background-image: url(../images/scroll.svg);
-  width: 45px;
+  width: 44px;
   cursor: pointer;
   opacity: 0.75;
   height: 50px;
@@ -74,9 +74,6 @@
 
 /* Mobile */
 @media (max-width: 768px) {
-  /* #homepage-scroll{
-    top: 100px;
-  } */
   .homepage-text{
     font-size: 1.5em;
   }

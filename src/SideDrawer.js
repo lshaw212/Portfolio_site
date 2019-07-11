@@ -8,7 +8,7 @@ const SideDrawer = ({show,drawerToggleClickHandler}) => {
     <nav className={drawerClasses}>
       <ul onClick={drawerToggleClickHandler}>
         <li>
-          <button className="navbar-btn" onClick={() => {document.querySelector('#homepage-container').scrollIntoView({ behavior: 'smooth' })}}>Home</button>
+          <button className="navbar-btn" onClick={() => {document.querySelector('#homepage-background').scrollIntoView({ behavior: 'smooth' })}}>Home</button>
         </li>
         <li>
           <button className="navbar-btn" onClick={() => {document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}}>About</button>
