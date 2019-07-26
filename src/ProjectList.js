@@ -27,7 +27,7 @@ const ProjectList =() => (
       image={calcImage}
       desc="This small project was created to showcase a calculator being built as a web application. Programmed with the React library, it utilises reusable components while maintaining the use of the 4 basic operators and a numpad functionality. Designed around web and mobile, this calculator is styled to replicate an old Casio calculator."
       code="https://github.com/lshaw212/react_calc"
-      website="https://lshaw-react-calc.herokuapp.com/"
+      website="https://lshaw212.github.io/react_calc/"
     />
     <hr className="blue-hr"/>
     <Project
