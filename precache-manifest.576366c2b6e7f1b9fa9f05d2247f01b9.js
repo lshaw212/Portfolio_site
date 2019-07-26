@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bea8e55b7c81b36d1b658c0ebfe1d0c1",
+    "revision": "8b905c66950bab576ab62e00a15ba7bd",
     "url": "/index.html"
   },
   {
-    "revision": "af0fa27a67646bd3ba4d",
-    "url": "/static/css/main.b7c55efa.chunk.css"
+    "revision": "8da6f00c6568db8f06fd",
+    "url": "/static/css/main.5a4c0eb5.chunk.css"
   },
   {
     "revision": "114619091b46d6f178b7",
     "url": "/static/js/2.0c063fe7.chunk.js"
   },
   {
-    "revision": "af0fa27a67646bd3ba4d",
-    "url": "/static/js/main.73c03901.chunk.js"
+    "revision": "8da6f00c6568db8f06fd",
+    "url": "/static/js/main.5f5f38c2.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Blog@.f846993e.jpg"
   },
   {
-    "revision": "b43cda2c6675cd573628aa225277e37a",
-    "url": "/static/media/ReactCalc.b43cda2c.jpg"
+    "revision": "1cb84fd1d97b793ea781bfefad5d7269",
+    "url": "/static/media/ReactCalc.1cb84fd1.jpg"
   },
   {
     "revision": "29f2096a7bdd199e892275d115706bcd",
