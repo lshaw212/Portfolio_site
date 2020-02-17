@@ -32,4 +32,4 @@ to install the project and all the dependencies, followed by
 to run the project on http://localhost:3000
 
 ---
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+***This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).***
