@@ -18,13 +18,13 @@ const Contact = () => (
       </div>
       <div id="information-2">
         <div id="information-2-header">Get in contact!</div>
-        <a href="https://www.linkedin.com/in/lshaw212/" target="_blank" rel="noopener noreferrer" className="contact-details"><span><FontAwesomeIcon icon={faLinkedinIn}/></span>Linkedin</a>
+        <a href="https://www.linkedin.com/in/lshaw212/" target="_blank" rel="noopener noreferrer" className="contact-details"><span><FontAwesomeIcon icon={faLinkedinIn}/></span>LinkedIn</a>
         <a href="https://github.com/lshaw212" target="_blank" rel="noopener noreferrer" className="contact-details"><span><FontAwesomeIcon icon={faGithub}/></span>Github</a>
         <a href="mailto:lshaw212@gmail.com" className="contact-details"><span><FontAwesomeIcon icon={faEnvelope}/></span>lshaw212@gmail.com</a>
-        <a href="https://drive.google.com/file/d/1ghLfzndhQe0gCG1V5mbNBS_NRUJVCTL7/view" target="_blank" rel="noopener noreferrer" className="contact-details"><span><FontAwesomeIcon icon={faFileDownload}/></span>Download CV</a>
+        <a href="https://drive.google.com/file/d/15s8YpjQhaGBLwOT4JOPbUJecKfJFSS74/view" target="_blank" rel="noopener noreferrer" className="contact-details"><span><FontAwesomeIcon icon={faFileDownload}/></span>Download CV</a>
       </div>
     </div>
-    <div id="contact-copyright">© 2019 | Property of <strong>Lewis Shaw</strong>, All Rights Reserved</div>
+    <div id="contact-copyright">© 2020 | Property of <strong>Lewis Shaw</strong>, All Rights Reserved</div>
   </div>
 )
 

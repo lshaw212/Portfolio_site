@@ -21,7 +21,7 @@ const ProjectList =() => (
       code="https://github.com/lshaw212/blogat"
       website="https://blogat-ls.herokuapp.com/"
     />
-    <hr className="blue-hr"/>
+    <hr className="wider-blue-hr"/>
     <Project
       name="React Calculator"
       image={calcImage}
@@ -29,7 +29,7 @@ const ProjectList =() => (
       code="https://github.com/lshaw212/react_calc"
       website="https://lshaw212.github.io/react_calc/"
     />
-    <hr className="blue-hr"/>
+    <hr className="wider-blue-hr"/>
     <Project
       name="Portfolio Site"
       image={portfolioImage}

@@ -41,6 +41,12 @@ html, body {
   border: 0;
   border-top: 2px solid #5fa5d1;
 }
+.wider-blue-hr{
+  width: 200px;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #5fa5d1;
+}
 .white-hr{
   width: 50px;
   height: 1px;

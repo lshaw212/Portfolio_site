@@ -71,7 +71,7 @@
 }
 @media (max-width: 1210px) and (min-width: 769px){
   .project-container{
-    /* height: 250px; */
+    height: 100%;
     width: 100%;
     flex-direction: row;
   }
@@ -93,7 +93,8 @@
     /* height: 350px; */
   }
   .project-content{
-    width: 100%;
+    /* width: 100%; */
+    width: 85%;
   }
   .project-name{
     font-size: 2em;
@@ -101,8 +102,11 @@
   .project-desc{
     font-size: 1em;
   }
+  .project-links{
+    margin:0;
+  }
   .project-links a{
-    padding: 20px;
+    padding: 10px;
   }
 }
 
